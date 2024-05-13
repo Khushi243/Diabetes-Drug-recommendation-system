@@ -1,0 +1,120 @@
+.login_container{
+    font-family: "Helvetica", Sans-Serif;
+    background: url('./images/LoginBack.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; /* Center the login form horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-color: #f0f0f0;
+  }
+  
+  /* login styles */
+  .login {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Login heading styles */
+  .login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  
+  /* Input container styles */
+  .login .input-container {
+    display: flex;
+    position: relative;
+    display: flex; 
+    align-items: baseline;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .login input[type="name"],
+  .login input[type="email"],
+  .login input[type="password"]
+  {
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    margin: 10px;;
+    width: 480px;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 5px;
+  }  
+  .login .input-container img {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px; 
+  }
+  .login input[type="submit"] {
+    background-color: #242424; /* Green color */
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    align-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  .login input[type="submit"]:hover {
+    background-color: #515252; /* Darker green on hover */
+  }
+  
+  /* "OR" paragraph styles */
+  .login p {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .login a {
+    color: #242424; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out; 
+  }
+  
+  .login a:hover {
+    color: #515151; 
+  }

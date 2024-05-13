@@ -1,0 +1,73 @@
+/* Overall Report Page Styling */
+.report-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    background-color: #eae4e4; /* Light gray background */
+    
+    position: fixed;
+  }
+  
+  /* Report Content Styling */
+.report-container {
+    padding: auto;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; /*try 90% */
+  }
+  
+  /* Image Container Styling */
+.image-container {
+    width: 40%; /* Adjust width as needed */
+    margin-right: 30px;
+  }
+  
+.image-container img {
+    width: 100%;
+    border-radius: 10px; /* Add a slight border radius */
+  }
+  
+  /* Recommendations Box Styling */
+.recommendations-box {
+    width: 100%; /* Adjust width as needed */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Add border radius */
+    padding: 20px;
+    flex-basis: 56%;
+  }
+.down {
+    background-color: #242424;
+    padding: 0px; /* Add padding for spacing */
+    color: #fff;
+    text-align: center;
+    justify-self: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+  
+  /* Recommended Medications Title Styling */
+.recommendations-box h2,
+.recommendations-box h3 {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Recommendations List Styling */
+.recommendations-box ul {
+    list-style: decimal ;
+    
+  }
+  
+  .recommendations-box li {
+    margin-bottom: 5px;
+  }
+  
